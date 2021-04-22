@@ -1,5 +1,5 @@
 {% set name = "github-pages-health-check" %}
-{% set version = "1.16.1" %}
+{% set version = "1.17.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 7079706210ecc1f6a954cd5bc782ad7fcfeee4b8408c4ae726446137bb45681e
+  sha256: 86e15aaca0fe3af3e680bf9b0ffbda1741c0c5ca3a272430ff7f9193303b4c5b
 
 build:
   noarch: generic
